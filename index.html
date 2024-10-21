@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Space Quiz</h1>
+        <div id="question" class="question-box">Question will appear here</div>
+        <ul id="choices" class="choices-list"></ul>
+        <div id="timer" class="timer">Time left: 10s</div>
+        <div id="feedback" class="feedback hidden"></div> <!-- Feedback message -->
+        <button id="nextBtn" class="btn next-btn" disabled>Next</button>
+        <div id="result" class="result hidden">
+            <h2>Quiz Completed!</h2>
+            <p>Your score is: <span id="score"></span></p>
+            <button id="restartBtn" class="btn restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
